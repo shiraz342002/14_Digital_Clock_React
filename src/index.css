@@ -1,0 +1,26 @@
+body{
+  background-image: url(./assets/lake-mountains_1204-502.avif);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.clock-container{
+  backdrop-filter:blur(2px) ;
+  /* width: 100vw; */
+  padding: 10px 0px;
+
+}
+.clock{
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75) ;
+  font-family: monospace;
+}
